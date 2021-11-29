@@ -7,6 +7,7 @@ import Home from "./pages";
 import About from "./pages/about";
 import Menu from "./pages/menu";
 import Dropdown from "./components/Dropdown";
+import Contect from "./pages/content";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -34,6 +35,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/menu" element={<Menu />} />
+        <Route path="/contact" element={<Contect />} />
       </Routes>
       <Footer />
     </>
