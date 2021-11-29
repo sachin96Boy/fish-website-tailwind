@@ -3,8 +3,14 @@ import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
-    <div className="bg-white h-screen flex flex-col justify-center items-center">
-      <h1 className="lg:text-9x1 md:text-7x1 sm:text-5x1 text-3xl font-black mb-14">
+    <div
+      className="bg-fixed bg-image h-screen flex flex-col justify-center items-center"
+      style={{
+        backgroundImage:
+          "url(https://i.ibb.co/RBkLjDG/pexels-axel-breuer-2247138-4.jpg)",
+      }}
+    >
+      <h1 className="lg:text-9x1 md:text-7x1 sm:text-5x1 text-7xl font-black text-white mb-14">
         FISH MARKET FOR ALL
       </h1>
       <Link
