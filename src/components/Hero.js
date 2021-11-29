@@ -15,7 +15,7 @@ const Hero = () => {
       </h1>
       <Link
         className="py-6 px-10 bg-blue-500 rounded-full text-3xl hover:bg-blue-800 transition duration-300 ease-in-out flex items-center animate-pulse"
-        to="/shop"
+        to="/"
       >
         Grab Now
         <svg
